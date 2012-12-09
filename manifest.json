@@ -1,0 +1,24 @@
+{
+    "name" : "Retina Images",
+    "version" : "0.1.12",
+    "description" : "Display Images in native retina resolution",
+    "background" : {
+        "scripts": ["background.js"]
+    },
+    "page_action" :{
+        "default_icon" : "sandwich-19.png",
+        "default_title" : "Retinizer Images"
+    },
+    "content_scripts" : [
+        {
+            "matches" : [
+                "http://*/*",
+                "https://*/*"
+            ],
+            "js" : ["jquery-1.8.3.min.js", "contentscript.js"],
+            "run_at" : "document_idle",
+            "all_frames" : false
+        }
+    ],
+    "manifest_version": 2
+}
