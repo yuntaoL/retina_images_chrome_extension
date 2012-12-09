@@ -1,4 +1,4 @@
-retina_images_chrome_extension
+Retian Images Chrome Extension
 ==============================
 
-Display large images in original retina resolution
+Display large images in native retina resolution
