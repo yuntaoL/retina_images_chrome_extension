@@ -1,6 +1,6 @@
 {
     "name" : "Retina Images",
-    "version" : "0.1.12",
+    "version" : "0.2",
     "description" : "Display Images in native retina resolution",
     "background" : {
         "scripts": ["background.js"]
